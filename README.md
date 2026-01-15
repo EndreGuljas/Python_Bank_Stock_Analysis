@@ -7,9 +7,9 @@
 ## Table of Contents
 
 - [Executive Summary](#executive-summary)
-- [Data Acquisition and Pipeline](#data-acquisition--pipeline)
+- [Data Acquisition and Pipeline](#data-acquisition-and-pipeline)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Technical Analysis and Visuals](#technical-analysis--visuals)
+- [Technical Analysis and Visuals](#technical-analysis-and-visuals)
 - [Conclusion](#conclusion)
 
 ---
