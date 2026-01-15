@@ -1,17 +1,15 @@
 <h1 align="center">Financial Crisis Bank Stock Analysis (2006–2016)</h1>
 
-<p align="center">
-  <i>An exploratory data analysis of major U.S. financial institutions during the 2008 global financial crisis and recovery period, demonstrating time-series handling, volatility analysis, and data visualization techniques using real-world stock market data.</i>
-</p>
+> A Python-based exploratory analysis of six major U.S. banks during the 2008 financial crisis, using time-series techniques and statistical visualization to reveal volatility patterns, correlation dynamics, and institutional recovery trends across a decade of market data.
 
 ---
 
 ## Table of Contents
 
 - [Executive Summary](#executive-summary)
-- [Data Acquisition & Pipeline](#data-acquisition--pipeline)
+- [Data Acquisition and Pipeline](#data-acquisition--pipeline)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Technical Analysis & Visuals](#technical-analysis--visuals)
+- [Technical Analysis and Visuals](#technical-analysis--visuals)
 - [Conclusion](#conclusion)
 
 ---
@@ -26,7 +24,7 @@ The purpose of this project is to demonstrate exploratory data analysis, time-se
 
 ---
 
-## Data Acquisition & Pipeline
+## Data Acquisition and Pipeline
 
 The dataset consists of daily OHLC (Open, High, Low, Close) stock price data from January 2006 through early 2016, covering pre-crisis conditions, the 2008–2009 financial crisis, and the post-crisis recovery period. Data was retrieved using Python and ingested into Pandas DataFrames for analysis.
 
@@ -68,7 +66,7 @@ Volatility, measured using the standard deviation of daily returns, is used as a
 
 ---
 
-## Technical Analysis & Visuals
+## Technical Analysis and Visuals
 
 This section focuses on using visualization techniques to make time-series behavior easier to interpret and communicate.
 
