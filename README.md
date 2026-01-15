@@ -16,7 +16,9 @@
 
 ## Executive Summary
 
-![image](https://github.com/EndreGuljas/Python_Bank_Stock_Analysis/blob/main/outputs/closing_price_linegraph.png)
+<p align="center">
+  <img src="https://github.com/EndreGuljas/Python_Bank_Stock_Analysis/blob/main/outputs/closing_price_linegraph.png" alt="Closing Price Line Graph">
+</p>
 
 This project analyzes how major U.S. financial institutions behaved during the 2008 global financial crisis and the recovery period that followed through 2016. Using daily stock price data for six systemically important banks — Bank of America (BAC), Citigroup (C), Goldman Sachs (GS), JPMorgan Chase (JPM), Morgan Stanley (MS), and Wells Fargo (WFC) — the analysis focuses on price volatility, extreme market movements, correlations between institutions, and recovery trends.
 
@@ -42,8 +44,13 @@ This section focuses on transforming raw price data into metrics that help descr
 
 Daily returns were calculated using percentage change to normalize price movements across banks with different share prices. This enables meaningful comparison of volatility and correlation across institutions.
 
-![image](https://github.com/EndreGuljas/Python_Bank_Stock_Analysis/blob/main/outputs/ms_return.png)
-![image](https://github.com/EndreGuljas/Python_Bank_Stock_Analysis/blob/main/outputs/c_return.png)
+<p align="center">
+  <img src="https://github.com/EndreGuljas/Python_Bank_Stock_Analysis/blob/main/outputs/ms_return.png" alt="MS Return">
+</p>
+
+<p align="center">
+  <img src="https://github.com/EndreGuljas/Python_Bank_Stock_Analysis/blob/main/outputs/c_return.png" alt="C Return">
+</p>
 
 To identify periods of heightened stress, the analysis examines the largest negative daily returns for each bank. These extreme values often align with known market disruptions, including the peak of the 2008–2009 crisis and structural events such as Citigroup's 2011 reverse stock split. Rather than treating these points as errors, they are interpreted as meaningful indicators of market instability.
 
@@ -62,7 +69,9 @@ To identify periods of heightened stress, the analysis examines the largest nega
 
 Volatility, measured using the standard deviation of daily returns, is used as a proxy for institutional risk. To understand how risk changed over time, volatility is compared between 2008, representing crisis conditions, and 2015, representing a more stable market environment. This comparison shows how some institutions experienced sustained volatility even after broader market recovery.
 
-![image](https://github.com/EndreGuljas/Python_Bank_Stock_Analysis/blob/main/outputs/volatility_comparison.png)
+<p align="center">
+  <img src="https://github.com/EndreGuljas/Python_Bank_Stock_Analysis/blob/main/outputs/volatility_comparison.png" alt="Volatility Comparison">
+</p>
 
 ---
 
@@ -72,15 +81,21 @@ This section focuses on using visualization techniques to make time-series behav
 
 A 30-day moving average was applied to daily closing prices to reduce short-term noise and highlight broader market trends. During the financial crisis, this smoothing clearly reveals extended periods of decline that are less obvious in raw price plots.
 
-![image](https://github.com/EndreGuljas/Python_Bank_Stock_Analysis/blob/main/outputs/30_day_avg_linegraph.png)
+<p align="center">
+  <img src="https://github.com/EndreGuljas/Python_Bank_Stock_Analysis/blob/main/outputs/30_day_avg_linegraph.png" alt="30 Day Average Line Graph">
+</p>
 
 To understand how banks moved relative to one another, a correlation matrix was created using daily returns. Heatmaps show that many institutions became highly correlated during crisis periods, reflecting shared exposure to systemic risk.
 
-![image](https://github.com/EndreGuljas/Python_Bank_Stock_Analysis/blob/main/outputs/corr_heatmap.png)
+<p align="center">
+  <img src="https://github.com/EndreGuljas/Python_Bank_Stock_Analysis/blob/main/outputs/corr_heatmap.png" alt="Correlation Heatmap">
+</p>
 
 To further illustrate changes in volatility over time, Bollinger Bands were applied to selected bank stocks. Candlestick charts were also used to provide additional context around daily price movement and market uncertainty.
 
-![image](https://github.com/EndreGuljas/Python_Bank_Stock_Analysis/blob/main/outputs/BAC_candlestick.png)
+<p align="center">
+  <img src="https://github.com/EndreGuljas/Python_Bank_Stock_Analysis/blob/main/outputs/BAC_candlestick.png" alt="BAC Candlestick">
+</p>
 
 ---
 
